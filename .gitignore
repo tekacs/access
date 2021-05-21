@@ -1,4 +1,5 @@
 .idea
+.lsp
 
 # Created by https://www.gitignore.io/api/clojure
 # Edit at https://www.gitignore.io/?templates=clojure
@@ -22,4 +23,3 @@ pom.xml.asc
 .clj-kondo/.cache/
 
 # End of https://www.gitignore.io/api/clojure
-
