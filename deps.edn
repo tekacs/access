@@ -2,11 +2,10 @@
  :deps
  {org.clojure/clojure {:mvn/version "1.10.1"}
   org.clojure/clojurescript {:mvn/version "1.10.520"}
-  binaryage/oops {:mvn/version "0.7.0"}}
+  binaryage/oops {:mvn/version "0.7.1"}}
  :aliases
  {:deploy {:extra-deps {deps-deploy {:mvn/version "RELEASE"}}
            :main-opts ["-m" "deps-deploy.deps-deploy" "deploy" "target/access.jar"]}
   :pack {:main-opts ["-m"]
          :extra-deps {pack/pack.alpha {:git/url "https://github.com/juxt/pack.alpha.git"
                                        :sha "c70740ffc10805f34836da2160fa1899601fac02"}}}}}
-
